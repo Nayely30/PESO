@@ -3,28 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
 header{
-    text-align: left;
+    text-align: center;
     padding: 5px 15px;
 }
 .container {
-    max-width: 700px;
     border-radius: 5px;
-    padding: 25px 30px;
+    padding: 20px;
+    background-color: beige;
 
-}
 }
 label{
     display: inline-block;
     color: black;
-    font-size: 40px;
-    background-color:gainsboro;
+    font-size: 20px;
     font-family: 'Poppins',sans-serif;
 
 }
