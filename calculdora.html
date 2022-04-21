@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <header>
+            <h1>Calculadora de peso ideal usando la formula de Paul Broca</h1>
+        </header> 
+        <div class="container">
+            <div class="row">
+                <div class="col-25">
+                    <label>Altura (centimetros)</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" step="any" min="100" max="200"  required>
+                </div>
+            </div>
+
+            <label>Edad</label>
+        <select name="Edad">
+            <option value="veinte">20-30 años</option>
+            <option value="cuarenta">40-50 años</option>
+            <option value="cincuneta">Mas de 50 años</option>
+        </select>
+        <br><br>
+        <label>Genero</label>
+        <select name="Genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+        <br><br>
+        <label>Grosor de la muñeca derecha (centimetros)</label>
+        <input type="number" step="any" min="1" max="40"  required>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+
+        </div>
+    </form>
+    
+</body>
+</html>
